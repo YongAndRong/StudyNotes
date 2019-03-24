@@ -116,14 +116,14 @@ NTP synchronized: no
  RTC in local TZ: no
       DST active: n/a
 ```
-####  简单命令
-* screen 命令  
+
+* ### screen 命令  
 screen -S  [SESSION]   #创建新会话  
 screen -ls             #显示所有已经打开的screen会话(貌似只能同用户查看)  
 screen -x [SESSION]    #加入screen会话  
 exit                   #退出会话  
-ctrl a ,d              #临时剥离会话，以便离开当前会话做点其他的
-screen -r  [SESSION]   #恢复某会话，如果只有一个会话可以不用加SESSION
+ctrl a ,d              #临时剥离会话，以便离开当前会话做点其他的  
+screen -r  [SESSION]   #恢复某会话，如果只有一个会话可以不用加SESSION  
 
 * 命令扩展{}  
 ```bash
@@ -135,13 +135,14 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 0 2 4 6 8 10
 ```
 * 命令行历史  
+`history`
 `ctrl + r #在命令历史中搜索命令`  
 `ctrl + g #从历史搜索模式退出`
 
-* makewhatis  和  mandb    后者只在centos7上有
+* makewhatis  和  mandb    后者只在centos7上有  
 * ]# ls  ~-/DIR/FILENAME    #查看上一次工作目录里的文件  ~- 上一次的工作目录  
 
-### 文件通配符
+### 文件通配符  
 ```bash
 #第一部分
 * 匹配0、多个字符
