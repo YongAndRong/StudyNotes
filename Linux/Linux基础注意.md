@@ -1,4 +1,4 @@
-## 第二天
+## linux基础命令注意点滴
 * `开发接口标准 `   
 &ensp;&ensp;&ensp;&ensp;ABI:Application Binary Interface  
 &ensp;&ensp;&ensp;&ensp;ABI描述了应用程序与OS之间的底层接口，允许编译好的目标代码在使用兼容ABI的系统中无需改动就能运行
